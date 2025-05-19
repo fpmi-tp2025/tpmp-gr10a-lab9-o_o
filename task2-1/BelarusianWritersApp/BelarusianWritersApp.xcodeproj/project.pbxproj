@@ -27,6 +27,9 @@
 		FA55A7CF2DDBE4D10013B3F5 /* PlistManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55A7CE2DDBE4D10013B3F5 /* PlistManagerTests.swift */; };
 		FA55A7D12DDBE4F00013B3F5 /* AuthManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55A7D02DDBE4F00013B3F5 /* AuthManagerTests.swift */; };
 		FA55A7D32DDBE5190013B3F5 /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55A7D22DDBE5190013B3F5 /* LocalizationTests.swift */; };
+		FA55A7D52DDBE79B0013B3F5 /* WriterListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55A7D42DDBE79B0013B3F5 /* WriterListUITests.swift */; };
+		FA55A7D72DDBE7DD0013B3F5 /* LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55A7D62DDBE7DD0013B3F5 /* LoginUITests.swift */; };
+		FA55A7D92DDBE8000013B3F5 /* DetailViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55A7D82DDBE8000013B3F5 /* DetailViewUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		FA55A7CE2DDBE4D10013B3F5 /* PlistManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlistManagerTests.swift; path = Tests/PlistManagerTests.swift; sourceTree = "<group>"; };
 		FA55A7D02DDBE4F00013B3F5 /* AuthManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthManagerTests.swift; path = Tests/AuthManagerTests.swift; sourceTree = "<group>"; };
 		FA55A7D22DDBE5190013B3F5 /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
+		FA55A7D42DDBE79B0013B3F5 /* WriterListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WriterListUITests.swift; path = UITests/WriterListUITests.swift; sourceTree = "<group>"; };
+		FA55A7D62DDBE7DD0013B3F5 /* LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginUITests.swift; path = UITests/LoginUITests.swift; sourceTree = "<group>"; };
+		FA55A7D82DDBE8000013B3F5 /* DetailViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewUITests.swift; path = UITests/DetailViewUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				FA55A7C82DDBE3A30013B3F5 /* WriterTests.swift */,
 				FA55A7CE2DDBE4D10013B3F5 /* PlistManagerTests.swift */,
 				FA55A7D02DDBE4F00013B3F5 /* AuthManagerTests.swift */,
+				FA55A7D42DDBE79B0013B3F5 /* WriterListUITests.swift */,
+				FA55A7D62DDBE7DD0013B3F5 /* LoginUITests.swift */,
+				FA55A7D82DDBE8000013B3F5 /* DetailViewUITests.swift */,
 				FA55A7D22DDBE5190013B3F5 /* LocalizationTests.swift */,
 			);
 			path = BelarusianWritersApp;
@@ -214,14 +223,17 @@
 				FA0B20FB2DDB6F5C00CCB841 /* Writer.swift in Sources */,
 				FA0B20EB2DDB6F2300CCB841 /* ViewController.swift in Sources */,
 				FA0B21032DDB6FE800CCB841 /* DetailView.swift in Sources */,
+				FA55A7D52DDBE79B0013B3F5 /* WriterListUITests.swift in Sources */,
 				FA55A7CF2DDBE4D10013B3F5 /* PlistManagerTests.swift in Sources */,
 				FA0B21052DDB701000CCB841 /* LoginViewController.swift in Sources */,
+				FA55A7D72DDBE7DD0013B3F5 /* LoginUITests.swift in Sources */,
 				FA55A7D32DDBE5190013B3F5 /* LocalizationTests.swift in Sources */,
 				FA55A7C92DDBE3A30013B3F5 /* WriterTests.swift in Sources */,
 				FA0B20E92DDB6F2300CCB841 /* AppDelegate.swift in Sources */,
 				FA0B21072DDB702B00CCB841 /* MainViewController.swift in Sources */,
 				FA0B21092DDB704300CCB841 /* DetailViewController.swift in Sources */,
 				FA0B20FF2DDB6FA000CCB841 /* AuthManager.swift in Sources */,
+				FA55A7D92DDBE8000013B3F5 /* DetailViewUITests.swift in Sources */,
 				FA55A7D12DDBE4F00013B3F5 /* AuthManagerTests.swift in Sources */,
 				FA0B21012DDB6FD300CCB841 /* WriterCollectionViewCell.swift in Sources */,
 			);
